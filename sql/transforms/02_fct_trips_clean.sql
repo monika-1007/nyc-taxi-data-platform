@@ -7,7 +7,7 @@
 -- Dependencies: stg.stg_yellow_trips
 -- Quality: pickup_ts < dropoff_ts, trip_distance >= 0, total_amount reasonable
 
-CREATE SCHEMA IF NOT EXISTS curated;
+-- CREATE SCHEMA IF NOT EXISTS curated;
 
 CREATE OR REPLACE VIEW curated.fct_trips_clean AS
 SELECT
