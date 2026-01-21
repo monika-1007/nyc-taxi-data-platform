@@ -7,7 +7,7 @@
 -- Dependencies: None
 -- Notes: This is the first staging layer (minimal business logic).
 
-CREATE SCHEMA IF NOT EXISTS stg;
+-- CREATE SCHEMA IF NOT EXISTS stg;
 
 CREATE OR REPLACE VIEW stg.stg_yellow_trips AS
 SELECT
